@@ -10,28 +10,17 @@ body {
 	height: 100%;
 }
 
-.general-container {
-	width: 1100px;
-}
-
-.header {
-	background: #4b73b5;
-}
-
 .header {
 	min-height: 76px;
 	margin-bottom: 45px;
 	width: 100%;
+	background: #4b73b5;
 }
 
-.header .container {
-	position: relative;
-	height: 76px;
-}
-
-.container {
+.header__container {
 	width: 1060px;
 	margin: 0 auto;
+	position: relative;
 }
 
 .logo-header {
@@ -46,30 +35,31 @@ body {
 	right: 0;
 }
 
-.contacts__schedule {
-	position: absolute;
-	top: 46px;
-	right: 0;
-}
-
 .contacts__phone {
 	font-size: 21px;
 	color: #ffffff;
 	text-decoration: none;
 }
 
-.contacts__schedule {
-	display: block;
-	font-size: 14px;
-	color: rgba(255,255,255,0.7);
+.schedule {
+	position: absolute;
+	top: 46px;
+	right: 0;
 }
 
-a.contacts__schedule:hover .window {
+.schedule {
+	display: block;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.schedule:hover .window {
 	display: block;
 } 
 
-a.contacts__schedule:hover {
+.schedule:hover {
 	text-decoration: underline;
+	color: rgba(255,255,255,0.7)
 }
 
 .window {
@@ -99,7 +89,7 @@ a.contacts__schedule:hover {
 	margin-left: 20px;
 }
 
-.maincontent__container {
+.maincontent {
 	width: 1100px;
 	margin: 0 auto;
 }
@@ -164,13 +154,19 @@ a.contacts__schedule:hover {
 	margin-right: 20px; 
 }
 
+.maincontent__container {
+	width: 903px;
+	margin: 0 auto;
+	position: relative;
+	bottom: 225px;
+	left: 105px;
+}
+
 .airplane {
 	display: inline-block;
 	vertical-align: middle;
 	width: 903px;
-	margin-left: 45px;
 	position: relative;
-	bottom: 30px;
 }
 
 .airplane__image {
@@ -183,10 +179,21 @@ a.contacts__schedule:hover {
 }
 
 .section {
-	width: 255px;
-	min-height: 370px;
+	width: 256px;
+	min-height: 455px;
 	display: inline-block;
 	vertical-align: middle;
+}
+
+.section__link {
+	color: #221f1f;
+	text-decoration: none;
+}
+
+.section__link:hover {
+	display: block;
+	border: 1px solid #e8e9ed;
+	width: 254px;
 }
 
 .section__image {
@@ -221,8 +228,10 @@ a.contacts__schedule:hover {
 .section__title {
 	text-align: center;
 	font-size: 10,78px;
+	text-transform: uppercase;
 }
- .section__text {
+
+.section__text {
  	text-align: center; 
  	font-size: 18px;
 	font-weight: lighter;
@@ -245,32 +254,33 @@ a.contacts__schedule:hover {
 }
 
 .airplane__base {
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 }
 
 .airplane__title {
-	margin-top: 0;
+	margin: 0;
 	font-size: 49px;
 }
 
-.last-news__fly {
-	width: 829px;
+.last-news {
 	font-size: 18px;
 	font-weight: lighter;
-	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
-.last-news__fly--border {
+.last-news--border {
 	border-bottom: 1px solid #f5f5f5;
 	margin: 0;
 }
 
 .news-image {
-	width: 165px;
-	height: 165px;
-	border-radius: 100px;
+	width: 160px;
+	height: 160px;
+	border-radius: 50px;
 	display: inline-block;
 	vertical-align: top;
+	margin-top: 10px;
 }
 
 .photo {
@@ -284,11 +294,12 @@ a.contacts__schedule:hover {
 .news-content {
  	display: inline-block;
  	vertical-align: middle;
- 	width: 655px;
- 	line-height: 27px;
+ 	width: 660px;
+ 	line-height: 30px;
+ 	margin-left: 20px;
 }
 
- .news-content__time {
+.news-content__time {
  	font-size: 15px;
  	color: #c1c1c1;
 }
@@ -296,10 +307,14 @@ a.contacts__schedule:hover {
 .news-content__title {
  	margin: 0;
 }
+
+.news-content__text {
+	margin-top: 5px;
+}
  
 .pagination {
-	margin-left: 450px;
-	margin-bottom: 60px;
+	margin: 0 auto;
+	width: 385px;
 }
 
 .pagination__pages {
@@ -349,7 +364,7 @@ a.contacts__schedule:hover {
 	min-height: 76px;
 }
 
-.footer-container {
+.footer__container {
 	position: relative;
 	height: 76px;
 	width: 1060px;
@@ -411,7 +426,7 @@ a.contacts__schedule:hover {
 	list-style: none;
 }
 
-[class *= "icons__item"] {
+.icons__item {
 	display: inline;
 }
 
@@ -429,21 +444,21 @@ a.contacts__schedule:hover {
 	opacity: 1;
 }
 
-.icons__item-vk a {
+.site--vkontacte {
 	background-color: #fff;
 	background-image: url("img/vk.png");
 	background-repeat: no-repeat;
 	background-position: center center; 
 }
 
-.icons__item-f a {
+.site--facebook {
 	background-color: #fff;
 	background-image: url("img/fb.png");
 	background-repeat: no-repeat;
 	background-position: center center; 
 }
 
-.icons__item-google a {
+.site--google {
 	border-radius: 50px;
 	background-color: #fff;
 	background-image: url("img/google.png");
@@ -451,7 +466,7 @@ a.contacts__schedule:hover {
 	background-position: center center; 
 }
 
-.icons__item-tw a {
+.site--twitter {
 	border-radius: 50px;
 	background-color: #fff;
 	background-image: url("img/twitter.png");
@@ -459,7 +474,7 @@ a.contacts__schedule:hover {
 	background-position: center center; 
 }
 
-.icons__item-mail a {
+.site--mail {
 	border-radius: 50px;
 	background-color: #fff;
 	background-image: url("img/mail.png");
