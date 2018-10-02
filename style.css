@@ -183,6 +183,7 @@ body {
 	min-height: 455px;
 	display: inline-block;
 	vertical-align: middle;
+	/*margin: 0 auto;*/
 }
 
 .section__link {
@@ -232,15 +233,22 @@ body {
 }
 
 .section__text {
- 	text-align: center; 
+ 	margin: 0 auto;
  	font-size: 18px;
 	font-weight: lighter;
+	line-height: 30px;
+	width: 184px;
+	text-align: center;
+}
+
+.section__list { 
+	margin-left: 18px;
+	line-height: 40px;
 }
 
 .list-elem {
 	font-size: 18px;
 	font-weight: lighter;
-	vertical-align: left;
 }
 
 .price {
