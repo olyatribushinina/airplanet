@@ -183,7 +183,7 @@ body {
 	min-height: 455px;
 	display: inline-block;
 	vertical-align: middle;
-	/*margin: 0 auto;*/
+	margin: 0 auto;
 }
 
 .section__link {
@@ -233,11 +233,9 @@ body {
 }
 
 .section__text {
- 	margin: 0 auto;
  	font-size: 18px;
 	font-weight: lighter;
 	line-height: 30px;
-	width: 184px;
 	text-align: center;
 }
 
