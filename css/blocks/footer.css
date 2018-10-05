@@ -74,14 +74,14 @@
 
 .site--vkontacte {
 	background-color: #fff;
-	background-image: url("img/vk.png");
+	background-image: url("../..img/vk.png");
 	background-repeat: no-repeat;
 	background-position: center center; 
 }
 
 .site--facebook {
 	background-color: #fff;
-	background-image: url("img/fb.png");
+	background-image: url("../..img/fb.png");
 	background-repeat: no-repeat;
 	background-position: center center; 
 }
@@ -89,7 +89,7 @@
 .site--google {
 	border-radius: 50px;
 	background-color: #fff;
-	background-image: url("img/google.png");
+	background-image: url("../..img/google.png");
 	background-repeat: no-repeat;
 	background-position: center center; 
 }
@@ -97,7 +97,7 @@
 .site--twitter {
 	border-radius: 50px;
 	background-color: #fff;
-	background-image: url("img/twitter.png");
+	background-image: url("../..img/twitter.png");
 	background-repeat: no-repeat;
 	background-position: center center; 
 }
@@ -105,7 +105,7 @@
 .site--mail {
 	border-radius: 50px;
 	background-color: #fff;
-	background-image: url("img/mail.png");
+	background-image: url("../..img/mail.png");
 	background-repeat: no-repeat;
 	background-position: center center; 
 }
