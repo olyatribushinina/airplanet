@@ -1,0 +1,29 @@
+.booking {
+	min-height: 170px;
+	margin-bottom: 50px;
+	width: 100%;
+	background: #4bb56b;
+	background-image: url("img/pattern.png");
+	display: flex;
+	align-items: center;
+}
+
+.booking__container {
+	width: 665px;
+	margin: 0 auto;
+}
+
+.booking__text {
+	font-size: 18px;
+	color: #fff;
+	line-height: 30px;
+}
+
+.question-link {
+	font-weight: bold;
+	color: #fff;
+}
+
+.question-link--none {
+	text-decoration: none;
+}

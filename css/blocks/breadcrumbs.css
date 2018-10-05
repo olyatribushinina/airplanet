@@ -1,0 +1,22 @@
+.breabcrumbs__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+.breadcrumbs__item {
+	text-decoration: none;
+	font-weight: lighter;
+	font-size: 14px;
+	font-style: italic;
+
+}
+
+.breadcrumbs__item-link {
+	text-decoration: none;
+}
+
+.breadcrumbs__item-link:hover {
+	color: #4b73b5;
+}

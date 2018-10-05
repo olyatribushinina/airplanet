@@ -1,0 +1,98 @@
+.feedback-form {
+	width: 700px;
+	height: 427px;
+	background: #f5f5f5;
+	margin: 0 auto;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form__container {
+	width: 562px;
+	height: 330px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.feedback__title {
+	font-size: 49px;
+	margin: 0;
+}
+
+.form__item {
+	margin: 5px;
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+.input {
+	display: flex;
+	justify-content: space-between;
+}
+
+.input__elem {
+	width: 260px;
+	height: 45px;
+	padding-left: 10px;
+	border-radius: 5px;
+    border: 1px solid #ddd;  
+}
+
+.input__elem:active {
+	border: 1px solid #4b73b5;
+} 
+
+.text {
+	width: 562px;
+	height: 90px;
+	padding-left: 10px;
+	padding-top: 10px;
+	border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+	font-weight: lighter;
+}
+
+.radio-button {
+	display: flex;
+}
+
+.radio {
+	flex: 1;
+	
+}
+
+.radio:active {
+	color: #4b73b5 ;
+}
+
+.button {
+	width: 154px;
+	height: 45px;
+	background: #4b73b5;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	text-align: left;
+	padding-left: 20px;
+	background-image: url(img/Vector-Smart-Object3.png);
+	background-repeat: no-repeat;
+	background-position: 80% 13px;
+	flex: 1;
+}
+
+.button:hover {
+	color: #4b73b5;
+	background: #fff;
+	background-image: url(img/main_icon-blue.png);
+	background-repeat: no-repeat;
+	background-position: 80% 13px;
+	border: 1px solid #fff;
+}

@@ -1,0 +1,55 @@
+.header__container {
+	width: 1060px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts {
+	margin-top: 20px;
+}
+
+.contacts__phone {
+	font-size: 21px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.schedule {
+	display: block;
+	font-size: 14px;
+	color: #ffffff;
+}
+
+.schedule:hover .window {
+	display: block;
+} 
+
+.schedule:hover {
+	text-decoration: underline;
+	color: rgba(255,255,255,0.7)
+}
+
+.window {
+	display: none;
+	width: 164px;
+	height: 76px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+	/*z-index: -1;*/
+}
+
+.week {
+	color: #4b73b5;
+	font-weight: bold;
+	font-size: 14px;
+	width: 125px;
+	margin-left: 20px;
+}
+
+.break {
+	font-size: 14px;
+	color: black;
+	width: 125px;
+	margin-left: 20px;
+}

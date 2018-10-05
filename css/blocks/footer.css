@@ -1,0 +1,111 @@
+.footer__container {
+	display: flex;
+	justify-content: space-between;
+	height: 76px;
+	width: 1060px;
+	margin: 0 auto;
+}
+
+.about {
+	width: 240px;
+}
+
+.about {
+	font-size: 14px;
+	color: #fff;
+}
+
+.loftschool {
+	color: #fff;
+}
+
+.autor {
+	font-weight: bold;
+}
+
+.footer__container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo-footer {
+	width: 125px;
+	margin-top: 20px;
+}
+
+.social-contacts {
+	margin-top: 17px;
+}
+
+.social-list {
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+}
+
+.social-icons { 
+	width: 146px;
+	margin-top: 5px;
+}
+
+.icons {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+}
+
+.icons__item {
+	display: flex;
+	margin-right: 8px;
+}
+
+.site {
+	opacity: 0.5;
+	width: 22px;
+	height: 22px;
+	border-radius: 50px;
+	background-color: #fff;
+}
+
+.site:hover {
+	opacity: 1;
+}
+
+.site--vkontacte {
+	background-color: #fff;
+	background-image: url("img/vk.png");
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+
+.site--facebook {
+	background-color: #fff;
+	background-image: url("img/fb.png");
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+
+.site--google {
+	border-radius: 50px;
+	background-color: #fff;
+	background-image: url("img/google.png");
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+
+.site--twitter {
+	border-radius: 50px;
+	background-color: #fff;
+	background-image: url("img/twitter.png");
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
+
+.site--mail {
+	border-radius: 50px;
+	background-color: #fff;
+	background-image: url("img/mail.png");
+	background-repeat: no-repeat;
+	background-position: center center; 
+}
