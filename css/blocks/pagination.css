@@ -1,7 +1,7 @@
 .pagination {
 	width: 400px;
 	display: flex;
-	margin-left: 220px;
+    margin: 0 auto;
 }
 
 .pagination__pages {

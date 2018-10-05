@@ -1,3 +1,9 @@
+.airplane__title {
+	margin: 0;
+	font-size: 49px;
+	margin-bottom: 30px;
+}
+
 .news-content__title {
  	margin: 0;
 }

@@ -1,11 +1,108 @@
+.airplane {
+	width: 903px;
+	position: relative;
+	bottom: 32px;
+}
+
+.airplane__image {
+	overflow: hidden;
+	align-self: flex-start;
+}
+
+.airplane__image img {
+	margin: 0 -110px 0 0;
+}
+
+.airplane__base {
+	width: 780px;
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 40px;
+}
+
+.section {
+	width: 256px;
+	min-height: 455px;
+}
+
+.section__link {
+	color: #221f1f;
+	text-decoration: none;
+}
+
+.section__link:hover {
+	display: block;
+	border: 1px solid #e8e9ed;
+	width: 254px;
+}
+
+.section__image {
+	width: 70px;
+	height: 70px;
+	background-color: #4b73b5;
+	border-radius: 50%;
+	margin-top: 40px;
+	margin-bottom: 35px;
+	margin-left: 90px;
+}
+
+.section__image--flower {
+	background-image: url("../../img/flower.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.section__image--star {
+	background-image: url(../../img/mark-as-favorite-star.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.section__image--pallete {
+	background-image: url("../../img/painter-palette.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.section__title {
+	text-align: center;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.section__text {
+ 	font-size: 18px;
+	font-weight: lighter;
+	line-height: 30px;
+	text-align: center;
+}
+
+.section__list { 
+	margin-left: 18px;
+	line-height: 40px;
+}
+
+.list-elem {
+	font-size: 18px;
+	font-weight: lighter;
+}
+
+.price {
+	font-size: 54px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.dollar {
+	font-size: 30px;
+}
+
 .last-news {
 	font-size: 18px;
 	font-weight: lighter;
-	width: 883px;
-	display: flex;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	margin-bottom: 30px;
+	display: flex;
 }
 
 .last-news--border {
@@ -28,11 +125,14 @@
   	margin: 0 auto;
 }
 
+
+
+/*comments*/
 .news-image--client {
 	width: 160px;
 	height: 160px;
 	border-radius: 50px;
-	background: url(../..img/Vector-Smart-Object-client.png) center center no-repeat;
+	background: url("../../img/Vector-Smart-Object-client.png") center center no-repeat;
 }
  
 .news-content {
@@ -48,4 +148,9 @@
 
 .news-content__text {
 	margin-top: 5px;
+}
+
+/*team*/
+.team {
+	display: flex;
 }
