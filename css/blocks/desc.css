@@ -113,19 +113,14 @@
 .news-image {
 	width: 160px;
 	height: 160px;
-	border-radius: 50px;
 	margin-top: 10px;
 }
 
 .photo {
 	border-radius: 50%;
-  	width: 100%;
-  	max-width: 100%;
-  	height: 100%;
-  	margin: 0 auto;
+	max-width: 100%;
+	max-height: 100%;
 }
-
-
 
 /*comments*/
 .news-image--client {
@@ -150,7 +145,96 @@
 	margin-top: 5px;
 }
 
-/*team*/
 .team {
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.team__picture {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	margin-left: 45px;
+}
+
+.team__photo {
+	border-radius: 50%;
+	max-width: 100%;
+	max-height: 100%;
+  	margin: 0 auto;
+  	/*border-style: none;*/
+	/*display: block;*/
+}
+
+.team__content {
+	width: 260px;
+}
+.section {
+	width: 30%;
+	min-height: 376px;
+	font-size: 15px;
+}
+
+.about__worker {
+	line-height: 20px;
+	margin: 0;
+}
+
+.partners__list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 750px;
+	margin-left: auto;
+}
+
+.partners__item {
+	display: flex;
+	flex: 1 1 200px;
+	flex-wrap: wrap;
+
+}
+
+.partners__link {
+	display: block;
+	min-width: 160px;
+	min-height: 160px;
+	margin-left: 90px;
+}
+
+.partners__link--bmp {
+	background: url(../../img/bmp.png) no-repeat;
+	background-position: center center;
+}
+
+.partners__link--tetra {
+	background: url(../../img/logo-2-tetra.png) no-repeat;
+	background-position: center center;
+}
+
+.partners__link--sibirian {
+	background: url(../../img/Vector-Smart-Object-sibirian.png) no-repeat;
+	background-position: center center;
+}
+
+.partners__link--one {
+	background: url(../../img/Vector-Smart-Object-oneAir.png) no-repeat;
+	background-position: center center;
+}
+
+.partners__link--bing {
+	background: url(../../img/Vector-Smart-Object-bingAir.png) no-repeat;
+	background-position: center center;
+}
+
+.partners__link--ural {
+	background: url(../../img/Vector-Smart-Object-ural.png) no-repeat;
+	background-position: center center;
 }

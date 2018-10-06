@@ -82,7 +82,7 @@
 	text-transform: uppercase;
 	text-align: left;
 	padding-left: 20px;
-	background-image: url(img/Vector-Smart-Object3.png);
+	background-image: url(../../img/Vector-Smart-Object3.png);
 	background-repeat: no-repeat;
 	background-position: 80% 13px;
 	flex: 1;
@@ -91,7 +91,7 @@
 .button:hover {
 	color: #4b73b5;
 	background: #fff;
-	background-image: url(img/main_icon-blue.png);
+	background-image: url(../../img/main_icon-blue.png);
 	background-repeat: no-repeat;
 	background-position: 80% 13px;
 	border: 1px solid #fff;

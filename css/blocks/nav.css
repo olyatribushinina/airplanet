@@ -1,12 +1,16 @@
-
+.menu {
+	width: 125px;
+}
 .menu__list {
 	margin: 0;
 	padding: 0;
+	width: 100%;
 	list-style: none;
+	margin-left: 20px;
 }
 
 .menu__list .menu__item {
-	margin-bottom: 42px;
+	margin-bottom: 25px;
 }
 
 [class *= "menu__link"] {

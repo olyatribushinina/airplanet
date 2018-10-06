@@ -21,19 +21,25 @@ body {
 	width: 1060px;
 	margin: 0 auto;
 	display: flex;
-	flex-wrap: wrap;
+	/*flex-wrap: wrap;*/
+}
+
+.conteiner--team {
+	width: 1060px;
+	display: flex;
 }
  
  .sidebar {
-	width: 125px;
+	width: 145px;
+
 }
 
 .maincontent {
-	width: 880px;
-	margin-left: 55px;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
+	/*width: 935px;*/
+	width: 870px;
+	margin-left: 70px;
+	/*display: flex;
+	flex-wrap: wrap;*/
 	margin-bottom: 65px;
 }
 

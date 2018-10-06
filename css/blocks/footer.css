@@ -44,7 +44,7 @@
 }
 
 .social-icons { 
-	width: 146px;
+	width: 150px;
 	margin-top: 5px;
 }
 
@@ -87,7 +87,6 @@
 }
 
 .site--google {
-	border-radius: 50px;
 	background-color: #fff;
 	background-image: url("../../img/google.png");
 	background-repeat: no-repeat;
@@ -95,7 +94,6 @@
 }
 
 .site--twitter {
-	border-radius: 50px;
 	background-color: #fff;
 	background-image: url("../../img/twitter.png");
 	background-repeat: no-repeat;
@@ -103,7 +101,6 @@
 }
 
 .site--mail {
-	border-radius: 50px;
 	background-color: #fff;
 	background-image: url("../../img/mail.png");
 	background-repeat: no-repeat;
