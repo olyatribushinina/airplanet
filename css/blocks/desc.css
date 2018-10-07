@@ -1,16 +1,11 @@
 .airplane {
-	width: 903px;
 	position: relative;
-	bottom: 32px;
+	bottom: 50px;
 }
 
 .airplane__image {
-	overflow: hidden;
-	align-self: flex-start;
-}
-
-.airplane__image img {
-	margin: 0 -110px 0 0;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
 }
 
 .airplane__base {
@@ -23,6 +18,7 @@
 .section {
 	width: 256px;
 	min-height: 455px;
+	margin: 0 auto;
 }
 
 .section__link {
@@ -43,7 +39,7 @@
 	border-radius: 50%;
 	margin-top: 40px;
 	margin-bottom: 35px;
-	margin-left: 90px;
+	margin-left: 80px;
 }
 
 .section__image--flower {
@@ -62,12 +58,6 @@
 	background-image: url("../../img/painter-palette.png");
 	background-repeat: no-repeat;
 	background-position: center center;
-}
-
-.section__title {
-	text-align: center;
-	font-size: 12px;
-	text-transform: uppercase;
 }
 
 .section__text {
@@ -97,7 +87,7 @@
 	font-size: 30px;
 }
 
-.last-news {
+.pattern-section {
 	font-size: 18px;
 	font-weight: lighter;
 	padding-top: 30px;
@@ -105,43 +95,44 @@
 	display: flex;
 }
 
-.last-news--border {
+.pattern-section--border {
 	border-bottom: 1px solid #f5f5f5;
 	margin: 0;
 }
 
-.news-image {
+.pattern-image {
 	width: 160px;
 	height: 160px;
 	margin-top: 10px;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
 }
 
-.photo {
+.pattern-image__photo {
 	border-radius: 50%;
 	max-width: 100%;
 	max-height: 100%;
 }
 
-/*comments*/
-.news-image--client {
+.pattern-image--client {
 	width: 160px;
 	height: 160px;
 	border-radius: 50px;
 	background: url("../../img/Vector-Smart-Object-client.png") center center no-repeat;
 }
  
-.news-content {
+.pattern {
  	width: 690px;
  	line-height: 30px;
  	margin-left: 20px;
 }
 
-.news-content__time {
+.pattern__time {
  	font-size: 15px;
  	color: #c1c1c1;
 }
 
-.news-content__text {
+.pattern__text {
 	margin-top: 5px;
 }
 
@@ -154,32 +145,32 @@
 	margin-bottom: 30px;
 }
 
-.team__picture {
+.team-elem {
+	width: 30%;
+	min-height: 376px;
+	font-size: 15px;
+	margin-bottom: 50px;
+}
+
+.team-picture {
 	width: 160px;
 	height: 160px;
 	border-radius: 50%;
 	margin-left: 45px;
 }
 
-.team__photo {
+.team-picture__photo {
 	border-radius: 50%;
 	max-width: 100%;
 	max-height: 100%;
   	margin: 0 auto;
-  	/*border-style: none;*/
-	/*display: block;*/
 }
 
-.team__content {
+.team-content {
 	width: 260px;
 }
-.section {
-	width: 30%;
-	min-height: 376px;
-	font-size: 15px;
-}
 
-.about__worker {
+.team-content__about-worker {
 	line-height: 20px;
 	margin: 0;
 }
@@ -189,52 +180,23 @@
 	margin: 0;
 	padding: 0;
 	display: flex;
-	justify-content: space-around;
 	flex-wrap: wrap;
-	width: 750px;
-	margin-left: auto;
+	width: 100%;
+	margin: 0 auto;
+	justify-content: space-between;
 }
 
 .partners__item {
+	width: 33.3%;
 	display: flex;
-	flex: 1 1 200px;
-	flex-wrap: wrap;
-
+	flex: 1 1 250px;
+	margin-bottom: 50px;
+	text-align: center;
 }
 
 .partners__link {
 	display: block;
-	min-width: 160px;
-	min-height: 160px;
-	margin-left: 90px;
+	min-width: 100%;
+	min-height: 100%;
 }
 
-.partners__link--bmp {
-	background: url(../../img/bmp.png) no-repeat;
-	background-position: center center;
-}
-
-.partners__link--tetra {
-	background: url(../../img/logo-2-tetra.png) no-repeat;
-	background-position: center center;
-}
-
-.partners__link--sibirian {
-	background: url(../../img/Vector-Smart-Object-sibirian.png) no-repeat;
-	background-position: center center;
-}
-
-.partners__link--one {
-	background: url(../../img/Vector-Smart-Object-oneAir.png) no-repeat;
-	background-position: center center;
-}
-
-.partners__link--bing {
-	background: url(../../img/Vector-Smart-Object-bingAir.png) no-repeat;
-	background-position: center center;
-}
-
-.partners__link--ural {
-	background: url(../../img/Vector-Smart-Object-ural.png) no-repeat;
-	background-position: center center;
-}

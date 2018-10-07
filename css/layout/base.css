@@ -17,33 +17,39 @@ body {
 	background: #4b73b5;
 }
 
+.header__container {
+	display: flex;
+	justify-content: space-between;
+	min-height: 76px;
+	width: 1060px;
+	margin: 0 auto;
+}
+
 .container {
 	width: 1060px;
 	margin: 0 auto;
 	display: flex;
-	/*flex-wrap: wrap;*/
+	margin-bottom: 60px;
 }
 
-.conteiner--team {
-	width: 1060px;
-	display: flex;
-}
- 
- .sidebar {
-	width: 145px;
-
+.sidebar {
+	min-width: 165px;
 }
 
 .maincontent {
-	/*width: 935px;*/
 	width: 870px;
-	margin-left: 70px;
-	/*display: flex;
-	flex-wrap: wrap;*/
-	margin-bottom: 65px;
+	margin: 0 auto; 
 }
 
 .footer {
 	min-height: 76px;
 	background: #4b73b5;
+}
+
+.footer__container {
+	display: flex;
+	justify-content: space-between;
+	min-height: 76px;
+	width: 1060px;
+	margin: 0 auto;
 }

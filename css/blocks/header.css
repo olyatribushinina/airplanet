@@ -1,9 +1,3 @@
-.header__container {
-	width: 1060px;
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-between;
-}
 
 .contacts {
 	margin-top: 20px;
@@ -16,9 +10,9 @@
 }
 
 .schedule {
-	display: block;
 	font-size: 14px;
 	color: #ffffff;
+	margin-left: 45px;
 }
 
 .schedule:hover .window {

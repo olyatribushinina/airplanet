@@ -4,8 +4,15 @@
 	margin-bottom: 30px;
 }
 
-.news-content__title {
- 	margin: 0;
+.section__title {
+	text-align: center;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.feedback-title {
+	font-size: 49px;
+	margin: 0;
 }
 
 .team__title {
@@ -14,17 +21,15 @@
 	margin-bottom: 30px;
 }
 
-.name__title {
+.team-content__name-title{
 	font-size: 16px;
 }
 
-.profession__title {
+.team-content__profession-title {
 	font-size: 12px;
 	color: #4b73b5;
 }
 
-.partners__title {
-	margin: 0;
+.companies-partners__title {
 	font-size: 49px;
-
 }

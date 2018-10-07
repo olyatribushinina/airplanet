@@ -6,7 +6,6 @@
 	padding: 0;
 	width: 100%;
 	list-style: none;
-	margin-left: 20px;
 }
 
 .menu__list .menu__item {
@@ -28,7 +27,7 @@
 	color: #221f1f;
 }
 
-.menu__link-1:before {
+.menu__link-main:before {
 	content: "";
 	width: 24px;
 	height: 20px;
@@ -36,7 +35,7 @@
 	margin-right: 20px; 
 }
 
-.menu__link-2:before {
+.menu__link-reviews:before {
 	content: "";
 	width: 24px;
 	height: 20px;
@@ -44,7 +43,7 @@
 	margin-right: 20px; 
 } 
 
-.menu__link-3:before {
+.menu__link-team:before {
 	content: "";
 	width: 24px;					
 	height: 20px;

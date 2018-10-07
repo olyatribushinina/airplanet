@@ -3,7 +3,7 @@
 	margin-bottom: 50px;
 	width: 100%;
 	background: #4bb56b;
-	background-image: url("img/pattern.png");
+	background-image: url("../../img/pattern.png");
 	display: flex;
 	align-items: center;
 }
