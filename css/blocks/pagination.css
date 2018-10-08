@@ -1,12 +1,13 @@
 .pagination {
-	width: 400px;
+	width: 100%;
 	display: flex;
-    margin: 0 auto;
+	justify-content: center;
+    font-size: 14px;
 }
 
 .pagination__pages {
 	color: #656464;
-	margin-right: 15px;
+	margin-right: 10px;
 }
 
 .buttons__list {
@@ -19,9 +20,9 @@
 .prev-link {
     color: black;
     font-weight: bold;
-    padding: 5px 10px;
+    padding: 5px 9px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 .prev-link--active {

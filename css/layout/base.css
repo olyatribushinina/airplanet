@@ -33,12 +33,17 @@ body {
 }
 
 .sidebar {
-	min-width: 165px;
+	min-width: 145px;
 }
 
 .maincontent {
 	width: 870px;
 	margin: 0 auto; 
+}
+
+.maincontent--main-page {
+	position: relative;
+	bottom: 50px;
 }
 
 .footer {

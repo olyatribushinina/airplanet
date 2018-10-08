@@ -1,13 +1,23 @@
 .airplane__title {
-	margin: 0;
+	margin: 0px;
 	font-size: 49px;
 	margin-bottom: 30px;
 }
 
+.pattern__title {
+	margin: 0;
+}
+
 .section__title {
 	text-align: center;
-	font-size: 12px;
+	font-size: 11px;
 	text-transform: uppercase;
+}
+
+.review__title {
+	font-size: 49px;
+	margin-top: 20px;
+	margin-bottom: 0;
 }
 
 .feedback-title {

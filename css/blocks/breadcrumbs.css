@@ -7,10 +7,9 @@
 
 .breadcrumbs__item {
 	text-decoration: none;
-	font-weight: lighter;
+	font-weight: light;
 	font-size: 14px;
 	font-style: italic;
-
 }
 
 .breadcrumbs__item-link {
@@ -19,4 +18,5 @@
 
 .breadcrumbs__item-link:hover {
 	color: #4b73b5;
+	text-decoration: underline;
 }
