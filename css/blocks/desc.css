@@ -1,19 +1,21 @@
-.airplane__image {
+.maincontent__airplane-image {
+	box-sizing: border-box;
 	margin-inline-start: 0;
 	margin-inline-end: 0;
+	margin-top: -30px;
+	width: 900px;
 }
 
-.airplane__base {
+.maincontent__tariffs-list {
 	width: 780px;
 	display: flex;
-	justify-content: space-evenly;
 	margin-bottom: 40px;
+	margin-right: auto;
 }
 
 .section {
-	width: 249px;
+	width: 33.3%;
 	min-height: 455px;
-	margin: 0 auto;
 }
 
 .section__link {
@@ -34,7 +36,7 @@
 	border-radius: 50%;
 	margin-top: 40px;
 	margin-bottom: 35px;
-	margin-left: 88px;
+	margin: 0 auto;
 }
 
 .section__image--flower {
@@ -117,7 +119,7 @@
 	width: 160px;
 	height: 160px;
 	border-radius: 50px;
-	background: url("../../img/Vector-Smart-Object-client.png") center center no-repeat;
+	background: url("../../img/Igor.png") center center no-repeat;
 }
  
 .pattern {
@@ -149,8 +151,8 @@
 }
 
 .team-elem {
-	width: 30%;
-	min-height: 376px;
+	width: 33.3%;
+	margin: 0 auto;
 	font-size: 15px;
 	margin-bottom: 50px;
 }
@@ -187,7 +189,7 @@
 }
 
 .team-content {
-	width: 285px;
+	width: 260px;
 }
 
 .team-content__about-worker {
@@ -209,13 +211,16 @@
 	width: 33.3%;
 	display: flex;
 	flex: 1 1 250px;
-	margin-bottom: 50px;
+	margin-bottom: 80px;
 	text-align: center;
 }
 
 .partners__link {
 	display: block;
-	min-width: 100%;
-	min-height: 100%;
+	width: 100%;
+	height: 100%;
 }
 
+.partners__link-bmp {
+	margin-top: 20px;
+}

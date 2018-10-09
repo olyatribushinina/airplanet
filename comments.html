@@ -15,17 +15,20 @@
 		<header class="header">
 			<div class="header__container">
 				<div class="logo">
-					<img class="logo__pic" src="img/logo_header.png" alt="логотип" >
+					<img class="logo__pic" src="img/logo.png" alt="логотип" >
 				</div>
-				<div class="contacts">
-					<a class="contacts__phone" href="tel:+78000039210">8 (800) 00-392-10</a>
-					<div class="schedule">График работы
-				</div>		
-				<div class="window">
-					<p class="week">пн-вс: 09:00-20:00</p>
-					<p class="break">обед 14:00-14:30</p>
-				</div>
-				</div>
+				<address class="contacts">
+					<div class="contacts__phone">
+						<a class="phone-link" href="tel:+78000039210">8 (800) 00-392-10</a>
+					</div>
+					<div class="contacts__schedule">
+						<button type="button" class="schedule-button">График работы</button>
+						<!-- <div class="window">
+							<p class="week">пн-вс: 09:00-20:00</p>
+							<p class="break">обед 14:00-14:30</p>
+						</div> -->
+					</div>
+				</address>	
 			</div>
 		</header>
 		<div class="container">
@@ -33,13 +36,13 @@
 				<nav class="menu">
 					<ul class="menu__list">
 						<li class="menu__item">
-							<a href="index.html" class="menu__link-main">ГЛАВНАЯ</a>
+							<a href="index.html" class="menu__link-main">Главная</a>
 						</li>
 						<li class="menu__item">
-							<a href="comments.html" class="menu__link-reviews">ОТЗЫВЫ</a>
+							<a href="comments.html" class="menu__link-reviews">Отзывы</a>
 						</li>
 						<li class="menu__item">
-							<a href="team.html" class="menu__link-team">ЭКИПАЖ</a>
+							<a href="team.html" class="menu__link-team">Экипаж</a>
 						</li>
 					</ul>
 				</nav>
@@ -50,7 +53,6 @@
 						<li class="breadcrumbs__item breadcrumbs__item--main">
 							<a href="index.html" class="breadcrumbs__item-link">Главная</a>
 						</li>
-						<span class="breadcrumbs__item">/</span>
 						<li class="breadcrumbs__item">Отзывы</li>
 					</ul>
 				</nav>
@@ -58,20 +60,20 @@
 					<h1 class="review__title">Отзывы</h1>
 					<section class="pattern-section pattern-section--border">
 						<div class="pattern-image">
-							<img class="pattern-image__photo" src="img/twk2lletn_u-christopher-campbell.png" alt="Ирина Паламарчук">
+							<img class="pattern-image__photo" src="img/Irina.png" alt="Ирина Паламарчук">
 						</div>
 						<div class="pattern">
-							<time class="pattern__time">12.10.2016</time>
+							<time datetime="12.10.2016" class="pattern__time">12.10.2016</time>
 							<h4 class="pattern__title">Ирина Паламарчук</h4>
 							<p class="pattern__text">Классный полет, трясло первые полчаса так, что я боялась отстегнуть ремни. Слава богу, ничего не случилось, но мне даже валерианка не помогла, так страшно было. Рекомендую эту компанию, но лучше доплатить и долететь с комфортом.</p>
 						</div>
 					</section>
 					<section class="pattern-section pattern-section--border">
 						<div class="pattern-image">
-							<img class="pattern-image__photo" src="img/cyxmk32bdlo-kahar-saidyhalam.png" alt="Александр Бельков">
+							<img class="pattern-image__photo" src="img/Alexandr.png" alt="Александр Бельков">
 						</div>
 						<div class="pattern">
-							<time class="pattern__time">01.02.2016</time>
+							<time datetime="01.02.2016" class="pattern__time">01.02.2016</time>
 							<h4 class="pattern__title">Александр Бельков</h4>
 							<p class="pattern__text">Все понравилось, вежливые стюардессы, вовремя убирают, напитки предлагали 2 раза, а еду - 1 раз. Единственное, что не понравилось, как-то мало места для ног, но с этим у меня часто проблема, рост 2,1м.</p>
 						</div>
@@ -79,56 +81,74 @@
 					<section class="pattern-section pattern-section--border">
 						<div class="pattern-image pattern-image--client"></div>
 						<div class="pattern">
-							<time class="pattern__time">22.12.2015</time>
+							<time datetime="22.12.2015" class="pattern__time">22.12.2015</time>
 							<h4 class="pattern__title">Игорь Николаенко</h4>
 							<p class="pattern__text">Кормили супер вообще! Сказали, что из-за того, что полет менее 2,5 часа. Но прибавьте к этому время регистрации в аэропорту. Летел с женой и мы очень проголодались. Просто имейте это ввиду, берите с собой хотя бы бутерброды, чипсы какие-то или печенье.</p>
 						</div>
 					</section>
 					<section class="pattern-section">
 						<div class="pattern-image">
-							<img class="pattern-image__photo" src="img/y0i85d5qkvs-alex-harvey.png" alt="Анастасия Порядная">
+							<img class="pattern-image__photo" src="img/Anastasya.png" alt="Анастасия Порядная">
 						</div>
 						<div class="pattern">
-							<time class="pattern__time">22.12.2015</time>
+							<time datetime="22.12.2015" class="pattern__time">22.12.2015</time>
 							<h4 class="pattern__title">Анастасия Порядная</h4>
 							<p class="pattern__text">За такую цену все просто отлично! Кто недоволен, платите в 2 раза больше за аналогичные рейсы. Мне понравилось, что на борту было чисто, я аллергик и всегда чутко реагирую на пыль. Спасибо за полет! Рекомендую!</p>
 						</div>
 					</section>
 				</div>
 				<div class="pagination">
-					<span class="pagination__pages">Страница 1 из 7</span>
+					<div class="pagination__pages">Страница 1 из 7</div>
 					<div class="buttons">
 						<ul class="buttons__list">
 							<li class="item">
-								<a href="#" class="prev-link prev-link--lt">&lt;</a>
+								<a href="#" class="item__link">
+									<div class="item__link-block item__link-block--arrow">&lt;</div> 
+								</a>
 							</li>
 							<li class="item">
-								<a href="#" class="prev-link prev-link--active">1</a>
+								<a href="#" class="item__link">
+									<div class="item__link-block item__link-block--active">1</div> 
+								</a>
 							</li>
 							<li class="item">
-								<a href="#" class="prev-link">2</a>
+								<a href="#" class="item__link">
+								<div class="item__link-block">2</div> 
+								</a>
 							</li>
 							<li class="item">
-								<a href="#" class="prev-link">3</a>
+								<a href="#" class="item__link">
+								<div class="item__link-block">3</div>
+								</a>
 							</li>
 							<li class="item">
-								<a href="#" class="prev-link">4</a>
+								<a href="#" class="item__link">
+									<div class="item__link-block">4</div>
+								</a>
 							</li>
 							<li class="item">
-								<a href="#" class="prev-link">5</a>
+								<a href="#" class="item__link">
+									<div class="item__link-block">5</div>
+								</a>
 							</li>
 							<li class="item">
-								<a href="#" class="prev-link">6</a>
+								<a href="#" class="item__link">
+									<div class="item__link-block">6</div>
+								</a>
 							</li>
 							<li class="item">
-								<a href="#" class="prev-link">7</a>
+								<a href="#" class="item__link">
+									<div class="item__link-block">7</div>
+								</a>
 							</li>
 							<li class="item">
-								<a href="#" class="prev-link prev-link--gt">&gt;</a>
+								<a href="#" class="item__link">
+									<div class="item__link-block item__link-block--arrow">&gt;</div>
+								</a>
 							</li>
 						</ul>
-						</div>
 					</div>
+				</div>
 			</main>
 		</div>	
 		<aside class="booking">
@@ -139,63 +159,54 @@
 			</div>
 		</aside>
 			<aside class="form">
-				<div class="form__container">
+				<h5 class="feedback-title">Оставить отзыв</h5>
 					<form class="feedback" action="#">
-						<h5 class="feedback-title">Оставить отзыв</h5>
-						<div class="input">
-							<div class="inner">
-								<div class="inside">
-								<p class="inside__item">Ваше имя</p>
-								<p class="inside__item">
-									<label for="name"></label>
-									<input class="input-elem" type="text" id="name" autofocus placeholder="Андрей">
-								</p>
+						<div class="line line--top">          <!-- top line -->
+							<div class="inner inner--left">      <!-- left -->
+								<label class="inside" for="name">
+									<span class="inside__text">Ваше имя</span> 
+									<input class="input-elem" type="text" id="name" placeholder="Андрей">
+								</label>
+							</div>	
+							<div class="inner inner--right">      <!--  right -->
+								<label class="inside" for="vk_link">
+									<span class="inside__text">Ссылка на профиль VK</span> 
+									<input class="input-elem" type="text" id="vk_link" placeholder="vk.com/example">
+								</label>
+							</div>
+						</div>
+						<div class="line line--center">
+							<label class="inside" for="textarea">
+								<span class="inside__text">Текст отзыва</span> 	
+								<textarea id="textarea" class="text" name="feedback_text" cols="30" rows="10" placeholder="Мне понравилось"></textarea>
+							</label>
+						</div>
+						<div class="line line--bottom">
+							<div class="inner inner--left">
+								<span class="inside__text">Отображать фото в отзыве?</span>
+								<div class="inside-radio">
+									<label class="yes" for="yes">
+										<span class="inside__text">Да</span>
+										<input type="radio" name="choose" id="yes">
+									</label>
+									<label class="no" for="no">
+										<span class="inside__text">Нет</span> 
+										<input type="radio" name="choose" id="no">
+									</label>
 								</div>
 							</div>	
-							<div class="inner">
-								<div class="inside">
-								<p class="inside__item">Ссылка на профиль VK</p>
-								<p class="inside__item">
-									<label for="vk_link"></label>
-									<input class="input-elem" type="text" id="vk_link" placeholder="vk.com/example">
-								</p>
-								</div>
+							<div class="inner inner--right">	
+								<button class="button" type="submit">отправить</button>
 							</div>
 						</div>
-						<div class="inner">
-							<div class="inside">
-							<p class="inside__item">Текст отзыва</p>
-							<p class="inside__item">
-								<label for="textarea"></label>
-								<textarea id="textarea" class="text" name="feedback_text" cols="30" rows="10" placeholder="Мне понравилось"></textarea>
-							</p>
-							</div>
-						</div>
-						<div class="radio-button">
-							<div class="inner">
-								<div class="inside">
-								<p class="inside__item">Отображать фото в отзыве?</p>
-								<p class="inside__item">
-								<label class="yes" for="yes">Да</label>
-								<input type="radio" name="choose" id="yes">
-								<label class="no" for="no">Нет</label>
-								<input type="radio" name="choose" id="no">
-								</p>
-								</div>
-								<p class="inside__item">	
-									<button class="button" type="submit">отправить</button>
-								</p>
-							</div>
-						</div>
-
 					</form>
-				</div>
+				<!-- </div> -->
 			</aside>	
 			<footer class="footer">
 				<div class="footer__container">
 					<p class="about">Сделано с любовью и старанием на курсе "HTML + CSS", в <a class="loftschool" href="#">Loftschool</a>.<br> Автор работы: <span class="autor">Трибушинина Оля</span></p>
-					<div class="logo-footer">
-						<img src="img/logo_header.png" alt="">
+					<div class="logo">
+						<img src="img/logo.png" alt="">
 					</div>
 					<div class="social-contacts">
 						<span class="social-list">Наши социальные сети</span>		

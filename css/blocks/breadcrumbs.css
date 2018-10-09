@@ -6,17 +6,20 @@
 }
 
 .breadcrumbs__item {
-	text-decoration: none;
-	font-weight: light;
 	font-size: 14px;
 	font-style: italic;
 }
 
+.breadcrumbs__item + .breadcrumbs__item::before {
+	content: '/';
+	padding: 0 5px;
+}
+
 .breadcrumbs__item-link {
 	text-decoration: none;
+	color: #4b73b5;
 }
 
 .breadcrumbs__item-link:hover {
-	color: #4b73b5;
 	text-decoration: underline;
 }

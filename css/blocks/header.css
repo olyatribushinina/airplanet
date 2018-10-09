@@ -1,27 +1,31 @@
 
 .contacts {
+	margin-left: auto;
 	margin-top: 20px;
 }
 
-.contacts__phone {
+.phone-link {
 	font-size: 21px;
+	font-style: normal;
+	font-weight: normal;
 	color: #ffffff;
 	text-decoration: none;
-
 }
 
-.schedule {
+.schedule-button {
+	border: none;
+	background: transparent;
+	cursor: pointer;
 	font-size: 14px;
 	color: #ffffff;
-	margin-left: 65px;
-	margin-top: 3px;
+	margin-left: 60px;
 }
 
-.schedule:hover .window {
+.schedule-button:hover .window {
 	display: block;
 } 
 
-.schedule:hover {
+.schedule-button:hover {
 	text-decoration: underline;
 	color: rgba(255,255,255,0.7)
 }
