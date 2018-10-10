@@ -18,13 +18,14 @@ body {
 
 .header__container {
 	display: flex;
-	width: 1100px;
+	width: 1060px;
+	/*width: 1100px;*/
 	margin: 0 auto;
 	justify-content: space-between;
 }
 
 .container {
-	width: 1100px;
+	width: 1060px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: center;
@@ -33,7 +34,6 @@ body {
 
 .sidebar {
 	width: 200px;
-	margin-left: 20px;
 }
 
 .maincontent {
@@ -48,7 +48,7 @@ body {
 .footer__container {
 	display: flex;
 	justify-content: space-between;
-	width: 1100px;
+	width: 1060px;
 	min-height: 77px;
 	margin: 0 auto;
 }
