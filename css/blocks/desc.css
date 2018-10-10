@@ -4,13 +4,14 @@
 	margin-inline-end: 0;
 	margin-top: -33px;
 	margin-left: auto;
+	margin-bottom: 12px;
 	width: 900px;
 }
 
 .maincontent__tariffs-list {
 	width: 780px;
 	display: flex;
-	margin-bottom: 40px;
+	margin-bottom: 33px;
 	margin-right: auto;
 }
 
@@ -20,8 +21,8 @@
 }
 
 .section {
-	width: 33.3%;
-	min-height: 455px;
+	width: 249px;
+	min-height: 456px;
 }
 
 .section__link {
@@ -42,7 +43,7 @@
 	border-radius: 50%;
 	margin-top: 40px;
 	margin-bottom: 35px;
-	margin: 40px auto 30px auto;
+	margin: 40px auto 34px auto;
 }
 
 .section__image--flower {
@@ -72,7 +73,9 @@
 
 .section__list { 
 	margin-left: 18px;
-	line-height: 40px;
+	margin-bottom: 0;
+	padding-left: 37px;
+	line-height: 36px;
 }
 
 .list-elem {
@@ -83,7 +86,7 @@
 .price {
 	font-size: 54px;
 	text-align: center;
-	margin-bottom: 49px;
+	margin-bottom: 36px;
 }
 
 .dollar {
@@ -106,9 +109,7 @@
 .pattern-image {
 	width: 160px;
 	height: 160px;
-	margin: 0;
-	/*margin-top: 10px;*/
-
+	margin: 10px 0 0 0;
 }
 
 .pattern-image__photo {
@@ -128,6 +129,7 @@
  	width: 800px;
  	line-height: 30px;
  	margin-left: 20px;
+ 	padding-top: 27px;
 }
 
 .pattern__time {

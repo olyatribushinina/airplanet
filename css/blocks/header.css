@@ -6,7 +6,11 @@
 	flex: 1;
 	align-items: flex-end; 
 	margin-top: 18px;
-	margin-right: 24px;
+	margin-right: 22px;
+}
+
+.contacts__shedule {
+	margin-right: -5px;
 }
 
 .phone-link {
