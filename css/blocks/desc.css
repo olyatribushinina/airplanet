@@ -15,12 +15,8 @@
 	margin-right: auto;
 }
 
-.maincontent__tariffs {
-	/*margin-left: 20px;*/
-}
-
 .maincontent__news {
-	margin-bottom: 30px;
+	margin-bottom: 12px;
 	margin-right: 48px;
 }
 
@@ -108,7 +104,6 @@
 	padding-top: 30px;
 	padding-bottom: 26px;
 	display: flex;
-	margin-left: 20px;
 }
 
 .pattern-section--border {
