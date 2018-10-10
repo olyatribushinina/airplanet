@@ -160,7 +160,7 @@
 .team-elem {
 	width: 33.3%;
 	font-size: 15px;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 	text-align: center;
 }
 
@@ -197,7 +197,7 @@
 }
 
 .team-content {
-	width: 260px;
+	min-width: 294px;
 	margin: 0 auto;
 }
 
