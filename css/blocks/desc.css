@@ -16,7 +16,7 @@
 }
 
 .maincontent__tariffs {
-	margin-left: 20px;
+	/*margin-left: 20px;*/
 }
 
 .maincontent__news {
@@ -27,7 +27,7 @@
 .section {
 	min-width: 249px;
 	min-height: 456px;
-	margin-right: 22px;
+	margin-left: 20px;
 }
 
 .section__link {
