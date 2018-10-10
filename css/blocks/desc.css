@@ -23,6 +23,7 @@
 .section {
 	width: 249px;
 	min-height: 456px;
+	margin-right: 20px;
 }
 
 .section__link {
@@ -69,6 +70,8 @@
 	font-weight: light;
 	line-height: 30px;
 	text-align: center;
+	margin: 0;
+	padding: 0 5px;
 }
 
 .section__list { 
@@ -87,6 +90,7 @@
 	font-size: 54px;
 	text-align: center;
 	margin-bottom: 36px;
+	margin-top: 18px;
 }
 
 .dollar {
@@ -109,7 +113,7 @@
 .pattern-image {
 	width: 160px;
 	height: 160px;
-	margin: 10px 0 0 0;
+	margin: 35px 0 0 0;
 }
 
 .pattern-image__photo {
