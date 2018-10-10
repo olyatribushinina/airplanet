@@ -101,8 +101,8 @@
 .pattern-section {
 	font-size: 18px;
 	font-weight: light;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	display: flex;
 }
 
@@ -130,9 +130,10 @@
 }
  
 .pattern {
- 	width: 800px;
+ 	width: 853px;
  	line-height: 30px;
  	margin-left: 20px;
+ 	margin-bottom: -27px;
 }
 
 .pattern__time {

@@ -37,7 +37,8 @@ body {
 
 .maincontent {
 	min-width: 900px;
-	margin-left: 80px;
+	padding: 0 20px;
+	/*margin-left: 80px;*/
 	/*margin: 0 auto; */
 }
 
