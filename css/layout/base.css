@@ -32,14 +32,12 @@ body {
 }
 
 .sidebar {
-	width: 200px;
+	width: 17%;
 }
 
 .maincontent {
-	min-width: 900px;
+	width: 83.5%;
 	padding: 0 20px;
-	/*margin-left: 80px;*/
-	/*margin: 0 auto; */
 }
 
 .footer {

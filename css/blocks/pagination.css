@@ -1,9 +1,9 @@
 .pagination {
 	display: flex;
-	justify-content: center;
 	align-items: center;
     font-size: 14px;
-    margin-bottom: 30px;
+    margin-bottom: 19px;
+    margin-left: 222px;
 }
 
 .pagination__pages {
