@@ -12,7 +12,6 @@
 
 .breadcrumbs__item + .breadcrumbs__item::before {
 	content: '/';
-	padding: 0 5px;
 }
 
 .breadcrumbs__item-link {
