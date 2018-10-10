@@ -3,7 +3,7 @@
 	align-items: center;
     font-size: 14px;
     margin-bottom: 19px;
-    margin-left: 222px;
+    justify-content: center;
 }
 
 .pagination__pages {
