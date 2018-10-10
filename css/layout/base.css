@@ -33,11 +33,12 @@ body {
 
 .sidebar {
 	width: 200px;
+	margin-left: 20px;
 }
 
 .maincontent {
 	width: 900px;
-	margin: 0 auto; 
+	/*margin: 0 auto; */
 }
 
 .footer {

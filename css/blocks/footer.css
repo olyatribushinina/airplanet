@@ -1,9 +1,17 @@
 .about {
-	width: 240px;
+	width: 33.3%;
 	font-size: 14px;
 	color: #fff;
 	margin-left: 20px;
 	margin-top: 15px;
+	display: flex;
+	flex: 1;
+	justify-content: flex-start;
+}
+
+.about__text {
+	width: 235px;
+	margin: 0;
 }
 
 .loftschool {

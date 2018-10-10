@@ -1,4 +1,25 @@
 .logo {
+	display: flex;
+	align-items: flex-start;
+	flex: 1;
+}
+
+.logo--header {
+	width: 50%;
+	justify-content: flex-start;
 	margin-top: 20px;
 	margin-left: 20px;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+}
+
+.logo--footer {
+	width: 33.3%;
+	justify-content: center;
+	margin: 15px 0;
+}
+
+.logo_pic {
+	width: 120px;
+	height: 36px;
 }
