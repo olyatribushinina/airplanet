@@ -6,7 +6,7 @@
 	flex: 1;
 	align-items: flex-end; 
 	margin-top: 18px;
-	margin-right: 22px;
+	margin-right: 20px;
 	margin-bottom: 2px;
 }
 
@@ -44,8 +44,11 @@
 	width: 164px;
 	height: 76px;
 	background-color: #fff;
+	border-radius: 4px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
-	/*z-index: -1;*/
+	position: absolute;
+	bottom: -95px;
+	right: 25px;
 }
 
 .week {

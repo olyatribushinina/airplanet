@@ -32,6 +32,14 @@
 	margin-right: 13px;
 }
 
+.menu__link-main:hover:before {
+	content: "";
+	width: 24px;
+	height: 20px;
+	background: url("../../img/main_icon.png") no-repeat;
+	margin-right: 13px;
+}
+
 .menu__link-reviews:before {
 	content: "";
 	width: 24px;
@@ -40,10 +48,27 @@
 	margin-right: 13px; 
 } 
 
+.menu__link-reviews:hover:before {
+	content: "";
+	width: 24px;
+	height: 20px;
+	background: url("../../img/feed_icon-black.png")  no-repeat;
+	margin-right: 13px; 
+} 
+
+
 .menu__link-team:before {
 	content: "";
 	width: 24px;					
 	height: 20px;
 	background: url("../../img/team_icon.png")  no-repeat;
+	margin-right: 13px; 
+}
+
+.menu__link-team:hover:before {
+	content: "";
+	width: 24px;					
+	height: 20px;
+	background: url("../../img/team_icon_black.png")  no-repeat;
 	margin-right: 13px; 
 }

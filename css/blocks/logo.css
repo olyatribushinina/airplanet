@@ -4,11 +4,14 @@
 	flex: 1;
 }
 
+.logo-link {
+	margin-left: 20px;
+}
+
 .logo--header {
 	width: 50%;
 	justify-content: flex-start;
 	margin-top: 20px;
-	margin-left: 24px;
 	margin-inline-start: 0;
 	margin-inline-end: 0;
 }
@@ -16,7 +19,7 @@
 .logo--footer {
 	width: 33.3%;
 	justify-content: center;
-	margin: 15px 0;
+	margin: 20px 0;
 }
 
 .logo_pic {

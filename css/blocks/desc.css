@@ -254,7 +254,6 @@
 	height: 160px;
 	margin: 0 auto 0 auto;
 	position: relative;
-	cursor: pointer;
 }
 
 .team-picture__photo {
@@ -262,6 +261,7 @@
 	width: 100%;
 	height: 100%;
   	margin: 0 auto;
+  	opacity: 1;
 }
 
 .team-picture__name {
@@ -278,7 +278,10 @@
 	padding-top: 70px;
 	box-sizing: border-box;
 	text-align: center;
-	opacity: 1;
+}
+
+.team-picture__name:hover {
+	background-color: transparent;
 }
 
 .team-content {
@@ -312,6 +315,14 @@
 	height: 100%;
 }
 
-.partners__link-bmp {
+.partners-img {
+	filter: grayscale(100%);
+}
+
+.partners-img:hover {
+	filter: grayscale(0%);
+}
+
+.partners-img--bmp {
 	margin-top: 30px;
 }
