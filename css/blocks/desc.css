@@ -4,11 +4,45 @@
 }
 
 .wrapper__welcome {
+	width: 250px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	margin: 0 auto;
+	animation: welcomeAnimation 1s; 
+}
+
+@keyframes welcomeAnimation {
+   0% {
+   opacity:0; 
+    transform: translateY(0);
+  }
+
+  50% {
+   	opasity: 0;
+   	transform: translateY(-100px);
+   }
+
+  60% {                                        
+    opacity: 0;
+    transform: translateY(100px);
+    transform: translateX(0);
+  }
+
+  75% {
+    transform: translateY(-50px);
+   
+  }
+
+  90% {
+    transform: translateY(50px);
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateY(0);;
+  }
 }
 
 .welcome-link {
