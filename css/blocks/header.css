@@ -31,7 +31,8 @@
 }
 
 .schedule-button:hover .window {
-	display: block;
+	right: 25px;
+	opacity: 1;
 } 
 
 .schedule-button:hover {
@@ -40,7 +41,9 @@
 }
 
 .window {
-	display: none;
+	right: -9999px;
+	opacity: 0;
+	transition: opacity	.4s;	
 	width: 164px;
 	height: 76px;
 	background-color: #fff;
@@ -49,6 +52,16 @@
 	position: absolute;
 	bottom: -95px;
 	right: 25px;
+}
+
+.window:before {
+	content: "";
+	display: block;
+	height: 30px;	
+	left: 0;
+	right: 0;
+	top: -29px;
+	position: absolute;	 		
 }
 
 .week {
