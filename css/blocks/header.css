@@ -28,10 +28,11 @@
 	cursor: pointer;
 	font-size: 14px;
 	color: #ffffff;
+	margin-right: -5px;
 }
 
 .schedule-button:hover .window {
-	right: 25px;
+	right: 20px;
 	opacity: 1;
 } 
 
@@ -50,8 +51,8 @@
 	border-radius: 4px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
 	position: absolute;
-	bottom: -95px;
-	right: 25px;
+	bottom: -90px;
+	right: 20px;
 }
 
 .window:before {
