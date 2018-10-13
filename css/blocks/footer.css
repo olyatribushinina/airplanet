@@ -1,5 +1,5 @@
 .about {
-	width: 33.3%;
+	width: 50%;
 	font-size: 14px;
 	color: #fff;
 	margin-left: 20px;
@@ -10,6 +10,7 @@
 }
 
 .about__text {
+	user-select: none;
 	width: 235px;
 	margin: 0;
 }

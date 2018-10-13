@@ -1,14 +1,16 @@
 .pagination {
+	font-size: 14px;
 	display: flex;
 	align-items: center;
-    font-size: 14px;
-    /*margin-bottom: 45px;*/
-    justify-content: center;
+	justify-content: flex-start;
+    margin-left: 200px;
+    margin-bottom: 40px;
 }
 
 .pagination__pages {
 	display: block;
 	color: #656464;
+	user-select: none;
 }
 
 .buttons__list {
@@ -43,7 +45,7 @@
 }
 
 .item__link:hover:not(.item__link-block--active) {
-	background-color: #ddd;
+	background-color: #4b73b5;
 }
 
 .item__link-block--arrow{

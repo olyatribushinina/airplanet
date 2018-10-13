@@ -1,22 +1,26 @@
 .booking {
-	min-height: 170px;
-	margin-bottom: 50px;
-	width: 100%;
-	background: #4bb56b;
-	background-image: url("../../img/pattern.png");
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
+	flex-direction: column;
 }
 
 .booking__container {
-	width: 665px;
-	margin: 0 auto;
+	width: 280px;
+	height: 290px;
+	padding: 20px 18px 20px 18px;
+	text-align: center;
+	background: #4b73b5;
+	background-image: url("../../img/pattern.png");
 }
 
 .booking__text {
 	font-size: 18px;
 	color: #fff;
 	line-height: 30px;
+}
+
+.question {
+	margin: 0;
 }
 
 .question-link {
