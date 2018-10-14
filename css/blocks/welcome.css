@@ -10,26 +10,29 @@
 }
 
 .welcome_link {
-	display: block;
 	padding: 18px 45px 18px 22px;
 	text-decoration: none;
-	background-color: #4b73b5;
+	background-color: #fff;
 	border-radius: 5px;
 	border: 1px solid #4b73b5;
-	color: #fff;
+	color: #4b73b5;
 	font-size: 12px;
 	font-weight: bold;
 	letter-spacing: 2.2px;
 	text-transform: uppercase;
-	background: url("../../img/Vector-Smart-Object3.png") 88% 16px no-repeat;
+	background-image: url("../../img/main_icon-intro.png"); 
+	background-repeat: no-repeat;
+	background-position: 88% 16px;
 	transition: .5s;
 }
 
 .welcome_link:hover {
 	display: block;
-	color: #4b73b5;
-	background-color: #fff;
-	background: url("../../img/main_icon-intro.png") 88% 16px no-repeat;
+	color: #fff;
+	background-color: #4b73b5;
+	background-image: url("../../img/Vector-Smart-Object3.png");
+	background-repeat: no-repeat;
+	background-position: 88% 16px;
 	border: 1px solid #fff;
 }
 

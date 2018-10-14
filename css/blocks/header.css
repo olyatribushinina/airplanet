@@ -41,6 +41,17 @@
 	color: rgba(255,255,255,0.7)
 }
 
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 12px solid transparent;
+	border-right: 12px solid transparent;
+	border-bottom: 12px solid #fff;
+	position: absolute;
+	top: -8px;
+	right: 0;
+}
+
 .window {
 	right: -9999px;
 	opacity: 0;
