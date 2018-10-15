@@ -2,11 +2,11 @@
 	width: 50%;
 	font-size: 14px;
 	color: #fff;
-	margin-left: 20px;
-	margin-top: 15px;
+	margin: 20px 20px;
 	display: flex;
 	flex: 1;
 	justify-content: flex-start;
+	align-items: center;
 }
 
 .about__text {

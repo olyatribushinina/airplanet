@@ -55,7 +55,7 @@
 .window {
 	right: -9999px;
 	opacity: 0;
-	transition: opacity	.4s;	
+	transition: opacity	.5s;	
 	width: 164px;
 	height: 76px;
 	background-color: #fff;

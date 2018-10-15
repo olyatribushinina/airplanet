@@ -75,6 +75,7 @@
 	height: 20px;
 	background: url("../../img/main_icon-blue.png") no-repeat;
 	margin-right: 13px;
+	transition: .5s;
 }
 
 .menu__link--main:hover:before {
@@ -93,7 +94,8 @@
 	width: 24px;
 	height: 20px;
 	background: url("../../img/feed_icon.png")  no-repeat;
-	margin-right: 13px; 
+	margin-right: 13px;
+	transition: .5s; 
 } 
 
 .menu__link--reviews:hover:before {
@@ -113,6 +115,7 @@
 	height: 20px;
 	background: url("../../img/team_icon.png")  no-repeat;
 	margin-right: 13px; 
+	transition: .5s;
 }
 
 .menu__link--team:hover:before {
